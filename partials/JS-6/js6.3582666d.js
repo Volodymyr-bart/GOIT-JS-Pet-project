@@ -1,0 +1,2 @@
+const l={inputEl:document.querySelector("#validation-input")},t=Number(l.inputEl.dataset.length);console.log(t),l.inputEl.addEventListener("blur",(function(i){console.log("Blur"),i.currentTarget.value.length===t?(l.inputEl.classList.add("valid"),l.inputEl.classList.remove("invalid")):(l.inputEl.classList.remove("valid"),l.inputEl.classList.add("invalid"))}));
+//# sourceMappingURL=js6.3582666d.js.map
